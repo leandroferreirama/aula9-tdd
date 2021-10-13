@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="Alura\Leilao\Tests\Model\LeilaoTest">Alura\Leilao\Tests\Model\Leilao</h2>
+        <ul>
+            <li style="color: #555753;">✓ Leilao nao deve aceitar mais de 5 lances por usuario</li>
+            <li style="color: #555753;">✓ Leilao nao deve receber lances repitidos</li>
+            <li style="color: #555753;">✓ Leilao deve receber lances with data set "2-lances"</li>
+            <li style="color: #555753;">✓ Leilao deve receber lances with data set "1-lance"</li>
+        </ul>
+        <h2 id="Alura\Leilao\Tests\Service\AvaliadorTest">Alura\Leilao\Tests\Service\Avaliador</h2>
+        <ul>
+            <li style="color: #555753;">✓ Leilao finalizado nao pode ser avaliado</li>
+            <li style="color: #555753;">✓ Leilao vazio nao pode ser</li>
+            <li style="color: #555753;">✓ Avaliador deve encontrar o maior valor de lance with data set "ordem-crescente"</li>
+            <li style="color: #555753;">✓ Avaliador deve encontrar o maior valor de lance with data set "ordem-decrescente"</li>
+            <li style="color: #555753;">✓ Avaliador deve encontrar o maior valor de lance with data set "orderm-aleatoria"</li>
+            <li style="color: #555753;">✓ Avaliador deve encontrar o menor valor de lance with data set "ordem-crescente"</li>
+            <li style="color: #555753;">✓ Avaliador deve encontrar o menor valor de lance with data set "ordem-decrescente"</li>
+            <li style="color: #555753;">✓ Avaliador deve encontrar o menor valor de lance with data set "orderm-aleatoria"</li>
+            <li style="color: #555753;">✓ Avaliador deve buscar treis maiores valor with data set "ordem-crescente"</li>
+            <li style="color: #555753;">✓ Avaliador deve buscar treis maiores valor with data set "ordem-decrescente"</li>
+            <li style="color: #555753;">✓ Avaliador deve buscar treis maiores valor with data set "orderm-aleatoria"</li>
+        </ul>
+    </body>
+</html>
